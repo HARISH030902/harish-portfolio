@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Personal Portfolio Website design</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      
+      <!-- <h1>Portfolio.</h1> -->
+      <div>
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">skills</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <i class="fa-solid fa-bars fa-2xl" id="menu-icon" onclick="toggleicon()"></i>
+      </div>
+    </header>
+
+    <!--Home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Harish</h1>
+        <h3>And I'm a <span>Full-Stack Developer</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+          accusamus commodi autem, suscipit voluptatibus sunt obcaecati voluptas
+          expedita minima unde?
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="../RESUME FINAL (2).pdf" class="btn" target="_parent"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="../portfolio/portfolio img/new profile.png" alt="" />
+      </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+
+    <section class="about" id="about">
+      <div class="separate">
+        <div class="about-img">
+          <img src="../portfolio/portfolio img/Profile.jpg" alt="" />
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About<span> Me</span></h2>
+          <h3>Full-stack Developer</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            at cupiditate modi voluptatibus accusantium numquam recusandae quam
+            animi veniam odio eveniet eos, eaque pariatur possimus alias tempora
+            maiores. Autem quidem voluptate excepturi expedita magnam rem sed,
+            aut, molestiae dolorem eligendi tempora id. Possimus sequi animi
+            incidunt, reiciendis dolor tempore neque.
+          </p><br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum magnam facere odio commodi sunt. Quasi molestiae officia, velit distinctio sapiente ea ducimus magni eligendi alias nobis voluptatum accusamus libero dolores ipsum, molestias laborum consequatur quibusdam excepturi, impedit nemo? Nihil eum numquam facilis. Quidem deleniti, aspernatur eos dolorem facilis ducimus quae!</p>
+          <br /><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum magnam facere odio commodi sunt. Quasi molestiae officia, velit distinctio sapiente ea ducimus magni eligendi alias nobis voluptatum accusamus libero dolores ipsum, molestias laborum consequatur quibusdam excepturi, impedit nemo? Nihil eum numquam facilis. Quidem deleniti, aspernatur eos dolorem facilis ducimus quae!</p>
+          <br />
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills section design-->
+
+    <section class="skills" id="skills">
+      <h2 class="heading">MY<span>skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-js"></i>
+          <h3>Javascript</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python</h3>
+        </div>
+
+        <div class="skills-box">
+          <div class="dj">
+            <i class="fa-solid fa-d"></i>
+            <h1>j</h1>
+          </div>
+          <h3>Django</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-bars"></i>
+          <h3>MYSQL</h3>
+        </div>
+
+        <div class="skills-box">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>Springboot</h3>
+        </div>
+
+        <div class="skills-box">
+          <div class="mongodb">
+            <i class="fa-solid fa-m"></i>
+            <h1>ongoDB</h1>
+          </div>
+          <h3>MongoDB</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--Portfolio section design-->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="../portfolio/portfolio img/img3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptate, nisi?
+            </p>
+            <i class="fa-solid fa-share-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact section design-->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="contact-input-box">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+            <input type="number" placeholder="Mobile Number" />
+            <input type="text" placeholder="Email Subject" />
+          </div>
+
+          <textarea
+            name=""
+            id=""
+            cols="45"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer class="footer">
+      <div class="footer-social-media">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by @harishhardy | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-icontop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!--Main JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
